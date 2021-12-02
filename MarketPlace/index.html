@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MarketPlace</title>
+</head>
+<body>
+    <header class="header">
+        <div class="menu">
+            <div class="logo">
+                <a href="index.html"><img src="img/LOGO 2.png"></a>
+            </div>
+
+            <div class="nav">
+                <a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i><a href="#">PRODUCTOS</a>
+                <a href="#"><i class="fa fa-phone-square" aria-hidden="true"></i><a href="#">CONTACTOS</a>
+                <a href="#"><i class="fa fa-users" aria-hidden="true"></i><a href="#">NOSOTROS</a>
+            </div>
+            
+            <div class="carrito">
+                <div>
+                    <a href="carrito.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></i></a>
+                    <a href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i></i></a>
+                </div>
+
+            </div>
+        </div>
+        <div class="buscador">
+            <h2>Busca lo que necesites!!!</h2>
+            <input type="text" name="buscar" id="buscar" placeholder="BUSCAR">
+            <a href="#"><i class="fa fa-search" id="icon-buscar" aria-hidden="true"></i></a>
+        </div>
+
+
+        <ul id="caja-buscador">
+            <li><a href="best-protein.html"><i class="fa fa-search">Best-Protein</i></a></li>
+            <li><a href="#"><i class="fa fa-search">Whey-Protein</i></a></li>
+            <li><a href="#"><i class="fa fa-search">Protein-Platinum</i></a></li>
+            <li><a href="#"><i class="fa fa-search">Protein-Whey</i></a></li>
+            <li><a href="#"><i class="fa fa-search">Pro-Gainer</i></a></li>
+            <li><a href="#"><i class="fa fa-search">Protein-Whey3</i></a></li>
+        </ul>
+
+
+
+
+    </header>
+    <h1>---------------TODOS NUESTROS PRODUCTOS-----------------</h1>
+    <main class="contenedor-principal" id="contenedor_principal">
+        <div class="contenedor-card" id="contenedor_card">
+            
+        </div>
+    </main>
+    <section class="section">
+        <nav class="navegacion">
+            <a href="#">INICIO</a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">7</a>
+            <a href="#">8</a>
+            <a href="#">FINAL</a>
+        </nav>
+    </section>
+
+    <h2 id=h2-carrito>CARRITO</h2>
+    <div id="Contenedor-titulo">
+        <h3 id="ti1">ID </h3> 
+        <h3 id="ti2">IMAGEN  </h3> 
+        <h3 id="ti3">TITULO </h3> 
+        <h3 id="ti4">PRECIO  </h3> 
+        <h3 id="ti5">CANTIDAD  </h3> 
+        <h3 id="ti6">ELIMINAR  </h3> 
+    </div>
+
+    <div class="pie">
+        <template id="plantilla-carrito">
+            <tr>
+                <td id="td-id">1</td>
+                <td><img src="" alt=""></td>
+                <td class="titulo-td">Café</td>
+                <td id="td-precio">$ <span>500</span></td>
+                <td><input class="cantidad" type="number" value="1"></td>
+                <td><button class="button-delete">Borrar</button></td>
+            </tr>
+        </template>
+    </div>
+
+    <div id="Contenedor-precio">
+        <h3>Precio total:  </h3> 
+        <p >0</p>
+        <button class="comprar-boton">Comprar</button>
+    </div>
+
+    <div class="exito" id="exito">
+        <h2>COMPRA EXITOSA!!!</h2>
+    </div>
+    <div class="error" id="error">
+        <h2></h2>
+    </div>
+
+            <div class="enlaces">
+                <article class="article">
+                    <img src="img/LOGO 2.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi unde dolorum
+                    quisquam eligendi consequatur at culpa sequi, reiciendis fugiat, officiis
+                    vero dolor nulla quae perspiciatis accusamus deserunt incidunt veniam laudantium 
+                    esse pariatur, vel fugit? Excepturi obcaecati
+                    vel aperiam quos nulla minus, voluptas nobis non dolorum id! Quibusdam eius facilis magni?
+                    </p>
+        
+                    </article>
+                    <article class="article">
+                        <h2>ENLACES</h2>
+                        <a href="#">Nuestra Empresa</a><br><br>
+                        <a href="#">Productos</a><br><br>
+                        <a href="#">Distribuidores</a><br><br>
+                        <a href="#">Quienes Somos</a><br><br>
+                        <a href="#">Preguntas</a><br><br>
+                        <a href="#">Terminos y condiciones</a><br><br>
+        
+                    </article>
+                    <article class="article">
+        
+                        <h2>SIGUENOS</h2>
+                        <p>----------------------------------</p>
+                        <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        
+        
+                    </article>
+        
+                </div>
+                <footer class="footer">
+                    <nav class="pie-footer">
+                        <a href="#">Todos los Derechos Reservados 2021 © STRONGGAINER</a>
+                    </nav>
+        
+        
+                </footer>
+            </div>
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/fa0f5c32de.js" crossorigin="anonymous"></script>
+</body>
+</html>
