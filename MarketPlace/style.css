@@ -256,6 +256,7 @@ body{
     font-weight: 500;
     font-size: 14px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .contenedor-info button:hover{
@@ -377,37 +378,44 @@ tr button:hover{
 
 #Contenedor-precio button{
     padding:10px 30px;
-    background-color: rgba(0, 216, 72, 0.87);
+    background-color: rgba(172, 27, 27, 0.87);
     border-radius:15px;
     border:none;
     color:white;
     box-shadow:1px 1px 5px 0px #7a7a7a40;
+    cursor: pointer;
 }
 
 #Contenedor-precio button:hover{
-    background-color: rgba(16, 180, 65, 0.87);
+    background-color: rgba(212, 48, 48, 0.87);
     color: black;
     box-shadow:1px 1px 5px 0px #7a7a7a80;
 
 }
 
+
+
 .exito{
-    max-width: 1000px;
-    margin:auto;
-    background-color:transparent;
-    transition:all 500ms;
-    position:absolute;
-    right:0;
-    left: 0;
-    bottom:400px;
-    z-index:-1;
-    margin-bottom: 35%;
+    width: 70%;
+    background-color: #b01414;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin-left: 15%;
+    position: fixed;
+    top: -50px;
+    transition: all 1s;
+    
     
 }
-#exito h2{
-    color:rgb(252, 252, 252);
-    text-align: center;
+
+.exito h2{
+    color: white;
 }
+
+
 
 .error{
     max-width: 1000px;

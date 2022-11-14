@@ -196,17 +196,18 @@ function comprar(){
 
     actualizarPrecio()
 
-    exito.style.zIndex="1"
-    exito.style.backgroundColor="rgb(245, 0, 0)"
-    exito.querySelector('h2').style.color="rgb(252, 252, 252)"
-    setTimeout(()=>{
-        exito.style.zIndex="0"
-        exito.style.backgroundColor="transparent"
-        exito.querySelector('h2').style.color="transparent"
-    },2000)
     
+    exito.style.top = '50px'
+    setTimeout(() => {
+        exito.style.top = '-50px'
+        
+    }, 2000);
+    
+   
 
+   
 }
+
 
 //Busqueda 
 const input_buscar = document.querySelector("#buscar");
