@@ -9,7 +9,10 @@ const contenedor_table=document.querySelector('#contenedorTable')
 
 
 const comprarBoton = document.querySelector('.comprar-boton')
-comprarBoton.addEventListener('click', comprar)
+comprarBoton.addEventListener('click', ()=>{
+    comprar()
+})
+
 
 const fragment = document.createDocumentFragment()
 
@@ -162,6 +165,10 @@ function actualizarPrecio(){
     
 
     contenedor_Precio.innerHTML=`${total}$` 
+
+    
+
+    
 }
 
 
@@ -190,6 +197,8 @@ function cambiarCantidad(event){
 //Funcion de comprar
 
 function comprar(){
+
+    
     const exito=document.querySelector('.exito')
     
     footer.innerHTML=""

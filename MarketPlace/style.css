@@ -374,8 +374,13 @@ tr button:hover{
 }
 
 #Contenedor-precio h3{
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: 500;
+    color:#e6e6e6;
+    margin:0;
 }
+
+
 
 #Contenedor-precio button{
     padding:10px 30px;
